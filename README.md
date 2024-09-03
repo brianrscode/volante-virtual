@@ -4,8 +4,8 @@
 
 Este proyecto tiene como objetivo crear un volante virtual que permite controlar la dirección de un carro en un juego. Utiliza la detección de poses mediante la biblioteca `Mediapipe` para capturar los puntos de referencia de las manos y calcular el ángulo de inclinación entre ellos. A partir de este ángulo, se emulan pulsaciones de teclas para controlar la dirección del vehículo.
 
-> .[!NOTE].
-> Este proyecto aún está en construcción
+> [!NOTE]
+> Este proyecto aún está en construcción.
 
 ## Características
 
@@ -42,29 +42,29 @@ cd volante-virtual
 
 3. Crea un entorno virtual:
 
-    ```bashsh
-    python -m venv venv
-    ```
+```bash
+python -m venv venv
+```
 
-3.1. Activa el entorno virtual:
+4. Activa el entorno virtual:
 
     - En Windows:
 
-        ```bash
-        venv\Scripts\activate
-        ```
+    ```bash
+    venv\Scripts\activate
+    ```
 
     - En macOS y Linux:
 
-        ```bash
-        source venv/bin/activate
-        ```
-
-4. Instala las dependencias:
-
-    ```sh
-    pip install -r requirements.txt
+    ```bash
+    source venv/bin/activate
     ```
+
+5. Instala las dependencias:
+
+```sh
+pip install -r requirements.txt
+```
 
 ## Uso
 1. Ejecuta el script principal:
